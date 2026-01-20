@@ -3,7 +3,8 @@
 
 ## DAY 001 — SETUP (LOCAL ONLY)
 **Objective:**  
-Install and configure Git locally. No repositories.
+Install and configure Git locally.
+
 **Tasks:**
 - Install Git
 - Verify installation
@@ -12,6 +13,7 @@ Install and configure Git locally. No repositories.
   - `user.email`
   - default branch = `main`
 - Verify configuration using `git config --list`
+
 **Deliverable:**
 - Shared output showing successful configuration
 ---
@@ -19,12 +21,14 @@ Install and configure Git locally. No repositories.
 ## DAY 002 — YOUR FIRST LOCAL REPOSITORY
 **Objective:**  
 Create and understand a local Git repository.
+
 **Tasks:**
 - Initialize a repository using `git init`
 - Understand the `.git` directory
 - Create a file
 - Stage and commit the file
 - Inspect commit history
+
 **Deliverable:**
 - A commit in a local repository
 ---
@@ -32,6 +36,7 @@ Create and understand a local Git repository.
 ## DAY 003 — THE COMMIT MODEL
 **Objective:**  
 Understand how Git tracks changes.
+
 **Tasks:**
 - Create multiple atomic commits
 - Use:
@@ -39,6 +44,7 @@ Understand how Git tracks changes.
   - `git diff`
   - `git log`
 - Avoid combining unrelated changes
+
 **Deliverable:**
 - Repository with multiple clean commits
 ---
@@ -46,11 +52,13 @@ Understand how Git tracks changes.
 ## DAY 004 — BRANCHING
 **Objective:**  
 Work safely using branches.
+
 **Tasks:**
 - Create a feature branch
 - Make changes in the branch
 - Merge into `main`
 - Understand branch pointers
+
 **Deliverable:**
 - Merge commit in `main`
 ---
@@ -58,10 +66,12 @@ Work safely using branches.
 ## DAY 005 — INTRO TO GITHUB
 **Objective:**  
 Publish a local repository to GitHub.
+
 **Tasks:**
 - Create a GitHub repository
 - Connect local repo to GitHub
 - Push local history to remote
+
 **Deliverable:**
 - Repository visible on GitHub with commit history
 ---
@@ -69,11 +79,13 @@ Publish a local repository to GitHub.
 ## DAY 006 — PUSHING & PULLING
 **Objective:**  
 Understand local vs remote state.
+
 **Tasks:**
 - Make local changes
 - Push to GitHub
 - Pull remote changes
 - Observe branch tracking
+
 **Deliverable:**
 - Synced local and remote repositories
 ---
@@ -81,11 +93,13 @@ Understand local vs remote state.
 ## DAY 007 — MERGE CONFLICTS
 **Objective:**  
 Resolve conflicts manually.
+
 **Tasks:**
 - Create conflicting changes
 - Trigger a merge conflict
 - Resolve conflict using markers
 - Complete merge
+
 **Deliverable:**
 - Clean merge commit after conflict resolution
 ---
@@ -93,11 +107,13 @@ Resolve conflicts manually.
 ## DAY 008 — REBASE & HISTORY CLEANUP
 **Objective:**  
 Clean commit history.
+
 **Tasks:**
 - Create messy commit history
 - Use interactive rebase
 - Squash commits
 - Explain when rebasing is unsafe
+
 **Deliverable:**
 - Squashed, readable commit history
 ---
@@ -105,11 +121,13 @@ Clean commit history.
 ## DAY 009 — FORKS & UPSTREAM
 **Objective:**  
 Adopt open-source workflow.
+
 **Tasks:**
 - Fork a repository
 - Clone your fork
 - Add upstream remote
 - Sync fork with upstream
+
 **Deliverable:**
 - Fork synced with upstream `main`
 ---
@@ -117,11 +135,13 @@ Adopt open-source workflow.
 ## DAY 010 — PULL REQUESTS
 **Objective:**  
 Contribute via Pull Requests.
+
 **Tasks:**
 - Create feature branch
 - Push to fork
 - Open Pull Request
 - Merge via GitHub
+
 **Deliverable:**
 - Merged Pull Request
 ---
@@ -129,10 +149,12 @@ Contribute via Pull Requests.
 ## DAY 011 — COLLABORATION & REVIEWS
 **Objective:**  
 Use GitHub for communication.
+
 **Tasks:**
 - Review another participant’s PR
 - Leave actionable feedback
 - Respond to feedback on your PR
+
 **Deliverable:**
 - Evidence of review interaction
 ---
@@ -140,10 +162,12 @@ Use GitHub for communication.
 ## DAY 012 — TAGS & VERSIONING
 **Objective:**  
 Mark meaningful milestones.
+
 **Tasks:**
 - Create annotated tag
 - Push tag to GitHub
 - Understand semantic versioning
+
 **Deliverable:**
 - Tag visible on GitHub
 ---
@@ -151,10 +175,12 @@ Mark meaningful milestones.
 ## DAY 013 — RECOVERY
 **Objective:**  
 Recover from mistakes.
+
 **Tasks:**
 - Use `git reflog`
 - Recover a lost commit or branch
 - Fix detached HEAD state
+
 **Deliverable:**
 - Recovered work with explanation
 ---
@@ -162,18 +188,19 @@ Recover from mistakes.
 ## DAY 014 — FINAL INTEGRATION
 **Objective:**  
 Demonstrate end-to-end Git & GitHub competence.
+
 **Tasks:**
 - Pick an open issue
 - Implement solution
 - Open Pull Request
 - Address review feedback
 - Merge cleanly
+
 **Deliverable:**
 - Final merged Pull Request
 ---
 
 ## Completion Criteria
-
 - Minimum participation: **10 days**
 - Demonstrated:
   - Branching
@@ -183,12 +210,7 @@ Demonstrate end-to-end Git & GitHub competence.
 - No direct pushes to protected branches
 
 ## Scoring
-Scoring is applied **daily** based on speed and correctness.
----
-
-## Daily Scoring (Applies Every Day)
-
-Each day is scored out of **5 points**.
+Scoring is applied **daily** based on speed and correctness. Each day is scored out of **5 points**.
 
 ### Speed Bonus (first valid submissions)
 - 1st–3rd valid submission: **3 points**
@@ -201,4 +223,3 @@ Each day is scored out of **5 points**.
 - Incorrect or missing: **0 points**
 
 Information for vaid submission will be incuded inside the documents provided for daily tasks. 
----
