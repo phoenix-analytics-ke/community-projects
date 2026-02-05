@@ -185,7 +185,7 @@ Recover from mistakes.
 - Recovered work with explanation
 ---
 
-## DAY 014 — FINAL INTEGRATION
+## DAY 014 — REVIEW
 **Objective:**  
 Demonstrate end-to-end Git & GitHub competence.
 
