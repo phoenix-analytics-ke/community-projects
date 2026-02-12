@@ -118,7 +118,7 @@ Clean commit history.
 - Squashed, readable commit history
 ---
 
-## DAY 009 — FORKS & UPSTREAM
+## DAY 009 — FORKS, CLONES & STREAMS
 **Objective:**  
 Adopt open-source workflow.
 
